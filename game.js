@@ -289,7 +289,7 @@ function drawPlatforms() {
   platforms.forEach((p) => ctx.fillRect(p.x - cameraX, p.y, p.width, p.height));
 }
 function drawPlayer() {
-  // BODY
+  
   ctx.fillStyle = COLORS.shirt;
   ctx.fillRect(
     player.x - cameraX,
